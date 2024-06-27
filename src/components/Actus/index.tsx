@@ -97,9 +97,7 @@ const Actualities = () => {
         </div>
         {loaded && instanceRef.current && (
             <div className="dots">
-              {[
-                ...Array(instanceRef.current.track.details.slides.length).keys(),
-              ].map((idx) => {
+              {Array.from({ length: instanceRef.current.track.details.slides.length }, (_, idx) => idx).map((idx) => {
                 return (
                     <button
                         key={idx}
