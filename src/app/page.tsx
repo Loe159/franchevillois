@@ -5,7 +5,7 @@ import Brands from "@/components/Brands";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
-import Pricing from "@/components/Pricing";
+import Shop from "src/components/Shop";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
@@ -24,13 +24,8 @@ export default function Home() {
       <Hero />
       <Actus />
       <Story />
-      <Video />
+      <Shop />
       <Brands />
-      <AboutSectionOne />
-      <Testimonials />
-      <Pricing />
-      <Blog />
-      <Contact />
     </>
   );
 }

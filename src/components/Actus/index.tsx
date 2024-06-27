@@ -11,29 +11,29 @@ import React, {useState} from "react";
 const actualityData: Actuality[] = [
   {
     id: 1,
-    title: "Musharof Chy",
+    title: "HOMMAGE A DIDIER ROBERT",
     paragraph:
-      "lorem  ",
-    image: "/images/blog/blog-01.jpg",
-    publishDate: "01 Déc 2024",
+      "Ce dimanche 04 juillet 2021, à l’occasion du tournoi vétéran, CHALLENGE DIDIER ROBERT, fut l’occasion pour le FC FRANCHEVILLOIS de rendre...",
+    image: "/images/news/didier-robert.png",
+    publishDate: "16 Juil 2021",
     link: "",
   },
   {
     id: 2,
-    title: "Devid Weilium",
+    title: "ENTRAINEMENTS AU SEIN DU FC-FRANCHEVILLOIS",
     paragraph:
-      "lorem",
-    image: "/images/blog/blog-01.jpg",
-    publishDate: "01 Déc 2024",
+      "Belle journée ensoleillée qui à permis à nos jeunes adhérents de pouvoir profiter de nos magnifiques infrastructures. Encadrés par nos éducateurs que nous saluons...",
+    image: "/images/news/entrainement.png",
+    publishDate: "03 Avr 2021",
     link: "",
   },
   {
     id: 3,
-    title: "Lethium Frenci",
+    title: "MERCI POUR VOTRE SOUTIEN !",
     paragraph:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/blog/blog-01.jpg",
-    publishDate: "01 Déc 2024",
+      "Un grand merci à votre partenaire pour l’aide apportée au cours de cette « drôle » de saison du fait de la crise sanitaire traversée.",
+    image: "/images/news/soutien.png",
+    publishDate: "20 Mar 2021",
     link: "",
   },
 ];
@@ -52,7 +52,7 @@ const Actualities = () => {
   });
   return (
       <>
-        <section id="features" className="py-16 md:py-20 lg:py-28 bg-secondary px-16 max-h-[350px] mb-36">
+        <section id="features" className="py-16 md:py-20 lg:py-28 bg-secondary px-16 max-h-[400px] mb-48">
           <div className="container">
             <SectionTitle
                 title="Actus"

@@ -12,7 +12,7 @@ const SingleActuality = ({ actuality }: { actuality: Actuality }) => {
 
   return (
     <div className="w-full flex">
-      <Image src={image} alt={title} width={500} height={500}/>
+      <Image src={image} alt={title} width={500} height={500} className={"w-auto max-h-[300px]"} />
         <div className="px-10 flex flex-col justify-between w-3/4">
             <div className="flex flex-col gap-1.5">
                 <p className="text-sm text-body-color">{publishDate}</p>

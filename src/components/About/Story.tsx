@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Story = () => {
   return (
-    <section className="py-16 md:py-20 lg:py-28">
+    <section className="py-16 md:py-20 lg:py-28 bg-white-secondary">
       <div className="container">
         <SectionTitle
             title="Notre histoire"
@@ -30,13 +30,13 @@ const Story = () => {
           </div>
           <div className="w-full px-4 lg:w-1/2 flex flex-col gap-10 items-center">
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg text-justify whitespace-pre-wrap">
-                  Le FCFL, Football Club du franc lyonnais est un club cinquantenaire, issu d’une fusion en 2004 entre FC Cailloux sur Fontaines et l’AS de Sathonay village.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto consequuntur culpa dolorum ea enim eos, facere fugit ipsa iure laborum modi, sed sit suscipit veritatis, voluptate. Explicabo illo iusto quod.
                   <br/><br/>
                   Il est un club formateur labellisé depuis 2005 où de nombreux jeunes alimentent les équipes de la ligue Rhône Alpes.
                   <br/><br/>
-                  Le Football Club Franc Lyonnais a été fondé par des passionnés de ce noble sport, qui partagent les mêmes idées; soucieux d’offrir un maximum d ‘exigence dans un club amateur, de faire partager cette passion au plus grand nombre tout en gardant l’esprit de compétition et ainsi de proposer à ces adhérents des produits digne d’un club de haut niveau .
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores consequuntur dolor dolorem hic libero maxime optio temporibus voluptates. Animi aut autem doloremque ex, expedita iste reiciendis rerum sequi sint voluptate?
                   <br/><br/>
-                  Que vous soyez un sportif occasionnel ou un professionnel du milieu, notre club vous accueillera à bras ouverts.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 </p>
             <Link href={""}
                 className="ease-in-up shadow-btn hover:shadow-btn-hover hidden rounded-sm bg-white border-2 border-secondary text-black px-8 py-3 text-base font-medium transition duration-300 hover:bg-opacity-90 md:block md:px-9 lg:px-6 xl:px-9 w-52 text-center">
