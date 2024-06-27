@@ -22,8 +22,8 @@ const actualityData: Actuality[] = [
     id: 2,
     title: "Devid Weilium",
     paragraph:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/blog/blog-02.jpg",
+      "lorem",
+    image: "/images/blog/blog-01.jpg",
     publishDate: "01 Déc 2024",
     link: "",
   },
@@ -32,7 +32,7 @@ const actualityData: Actuality[] = [
     title: "Lethium Frenci",
     paragraph:
       "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/blog/blog-03.jpg",
+    image: "/images/blog/blog-01.jpg",
     publishDate: "01 Déc 2024",
     link: "",
   },
@@ -52,7 +52,18 @@ const Actualities = () => {
   });
   return (
       <>
-        <div className="navigation-wrapper">
+        <section id="features" className="py-16 md:py-20 lg:py-28 bg-secondary px-16 max-h-[350px] mb-36">
+          <div className="container">
+            <SectionTitle
+                title="Actus"
+                paragraph=""
+                right
+                width="100%"
+                mb={"0"}
+                color="white"
+            />
+
+            <div className="navigation-wrapper">
           <div ref={sliderRef} className="keen-slider">
             {actualityData.map((actuality) => (
                 <>
@@ -101,6 +112,8 @@ const Actualities = () => {
               })}
             </div>
         )}
+          </div>
+        </section>
       </>
   )
 }
