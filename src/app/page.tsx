@@ -12,7 +12,7 @@ import { Metadata } from "next";
 import Actus from "@/components/Actus";
 
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
+  title: "FC Franchevillois",
   description: "This is Home for Startup Nextjs Template",
   // other metadata
 };
