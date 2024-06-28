@@ -34,6 +34,9 @@ module.exports = {
       // => @media (min-width: 1400px) { ... }
     },
     extend: {
+      fontFamily: {
+        akira: ['var(--font-akira)']
+      },
       colors: {
         current: "currentColor",
         transparent: "transparent",

@@ -12,8 +12,20 @@ const Brands = () => {
             loop: true,
             mode: "free-snap",
             slides: {
-                perView: 5,
+                perView: 1,
                 spacing: 15,
+            },
+            breakpoints: {
+                '(min-width: 300px)': {
+                    slides: {
+                        perView: 3
+                    },
+                },
+                '(min-width: 768px)': {
+                    slides: {
+                        perView: 5
+                    },
+                },
             },
         },
         [

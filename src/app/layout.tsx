@@ -6,6 +6,13 @@ import ScrollToTop from "@/components/ScrollToTop";
 import { Inter } from "next/font/google";
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
+import localFont from 'next/font/local'
+
+
+const akira = localFont({
+    src: '../fonts/Akira.otf',
+    variable: '--font-akira'
+})
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,7 +29,7 @@ export default function RootLayout({
       */}
       <head />
 
-      <body className={`bg-white ${inter.className}`}>
+      <body className={`bg-white ${inter.className} ${akira.variable}`}>
         <Providers>
           <Header />
           {children}
