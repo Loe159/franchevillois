@@ -11,19 +11,19 @@ const SingleActuality = ({ actuality }: { actuality: Actuality }) => {
   const { id, title, paragraph, image, link, publishDate}  = actuality;
 
   return (
-    <div className="w-full flex">
+    <div className="w-full h-full flex flex-col md:flex-row">
       <Image src={image} alt={title} width={500} height={500} className={"w-auto max-h-[300px]"} />
-        <div className="px-10 flex flex-col justify-between w-3/4">
+        <div className="p-10 md:py-0 flex flex-col justify-around w-full md:w-3/4 h-full">
             <div className="flex flex-col gap-1.5">
                 <p className="text-sm text-body-color">{publishDate}</p>
                 <h2 className="mb-1 text-2xl font-semibold text-dark dark:text-white">{title}</h2>
-                <p className="mb-8 text-base leading-relaxed text-white">
+                <p className="mb-8 text-base leading-relaxed text-white overflow-hidden overflow-ellipsis line-clamp-3">
                     “{paragraph}
                 </p>
             </div>
             <Link
                 href={link}
-                className="ease-in-up shadow-btn hover:shadow-btn-hover hidden rounded-sm bg-secondary px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-opacity-90 md:block md:px-9 lg:px-6 xl:px-9 w-52 text-center"
+                className="ease-in-up shadow-btn hover:shadow-btn-hover rounded-sm bg-secondary px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-opacity-90 md:block md:px-9 lg:px-6 xl:px-9 w-52 text-center border-2 border-white"
             >
                 Lire la suite
             </Link>

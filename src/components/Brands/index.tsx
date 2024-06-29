@@ -13,7 +13,6 @@ const Brands = () => {
             mode: "free-snap",
             slides: {
                 perView: 1,
-                spacing: 15,
             },
             breakpoints: {
                 '(min-width: 300px)': {
@@ -63,7 +62,7 @@ const Brands = () => {
   return (
     <section className="py-16">
       <div className="container">
-          <SectionTitle title={"Nos partenaires"} paragraph={""}/>
+          <SectionTitle title={"Nos partenaires"} paragraph={""} mb={"16"}/>
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
               <div ref={sliderRef}
@@ -86,14 +85,14 @@ const SingleBrand = ({brand}: { brand: Brand }) => {
 
     return (
         <div
-            className="flex w-1/2 items-center justify-center px-3 py-[15px] sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 keen-slider__slide">
+            className="keen-slider__slide flex flex-wrap items-center justify-center">
             <a
                 href={href}
                 target="_blank"
                 rel="nofollow noreferrer"
-                className="relative h-10 w-full opacity-70 transition hover:opacity-100 dark:opacity-60 dark:hover:opacity-100"
+                className="opacity-90 transition hover:opacity-100"
       >
-        <Image src={image} alt={name} fill />
+        <Image src={image} alt={name} width={100} height={100} className={"mix-blend-multiply"}/>
       </a>
     </div>
   );

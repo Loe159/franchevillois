@@ -52,7 +52,7 @@ const Actualities = () => {
   });
   return (
       <>
-        <section id="features" className="py-16 md:py-20 lg:py-28 bg-secondary px-16 max-h-[400px] mb-48">
+        <section id="features" className="py-16 md:py-20 lg:py-28 bg-secondary px-16 md:max-h-[400px] mb-48">
           <div className="container">
             <SectionTitle
                 title="Actus"
