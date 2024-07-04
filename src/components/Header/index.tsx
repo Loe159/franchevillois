@@ -7,6 +7,8 @@ import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 
 const Header = () => {
+  const usePathName = usePathname();
+
   // Navbar toggle
   const [navbarOpen, setNavbarOpen] = useState(false);
   const navbarToggleHandler = () => {
@@ -34,15 +36,14 @@ const Header = () => {
     } else {
       setOpenIndex(index);
     }
-  };
 
-  const usePathName = usePathname();
+  };
 
   return (
     <>
       <header
         className={`header left-0 top-0 z-40 flex w-full items-center ${
-          sticky
+          sticky || usePathName !== '/' 
             ? "bg-gray-dark shadow-sticky-dark fixed z-[9999] !bg-opacity-80 backdrop-blur-sm transition"
             : "absolute bg-transparent"
         }`}
@@ -57,11 +58,11 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="/images/logo/logo-2.png"
+                  src="/images/logo/logo.png"
                   alt="logo"
-                  width={256}
-                  height={316}
-                  className="w-40"
+                  width={64}
+                  height={64}
+                  className=""
                 />
               </Link>
             </div>
