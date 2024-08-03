@@ -55,14 +55,6 @@ const ScorencoWidget = ({ id }) => {
                 style={{ display: 'block', width: '100%', overflow: 'auto', margin: 'auto', borderWidth: '0px' }}
                 scrolling="no"
             ></iframe>
-            <a
-                style={{ fontSize: '11px' }}
-                target="_blank"
-                href={`https://v1.scorenco.com/football/clubs/${id}/`}
-                rel="noopener noreferrer"
-            >
-                FC Franchevillois sur Score'n'co
-            </a>
         </div>
     );
 };
