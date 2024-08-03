@@ -17,16 +17,32 @@ const Header = () => {
 
   // Sticky Navbar
   const [sticky, setSticky] = useState(false);
-  const handleStickyNavbar = () => {
-    if (window.scrollY >= 80) {
-      setSticky(true);
-    } else {
-      setSticky(false);
-    }
-  };
   useEffect(() => {
-    window.addEventListener("scroll", handleStickyNavbar);
-  });
+    const handleStickyNavbar = () => {
+      if (window.scrollY >= 80) {
+        setSticky(true);
+      } else {
+        setSticky(false);
+      }
+    };
+
+
+      if (usePathName !== "/") {
+        setSticky(true);
+      } else {
+        setSticky(false);
+      }
+
+    if (usePathName === '/') {
+      window.addEventListener("scroll", handleStickyNavbar);
+    } else {
+      setSticky(true);
+    }
+
+    return () => {
+      window.removeEventListener("scroll", handleStickyNavbar);
+    };
+  }, [usePathName]);
 
   // submenu handler
   const [openIndex, setOpenIndex] = useState(-1);

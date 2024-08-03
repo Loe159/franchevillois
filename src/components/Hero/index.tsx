@@ -6,7 +6,7 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="relative z-10 overflow-hidden bg-white bg-hero-pattern bg-cover bg-fixed min-h-[80vh] flex items-center"
+        className="relative z-10 overflow-hidden bg-white bg-hero-pattern bg-cover bg-fixed min-h-[100vh] flex items-center"
       >
         <div className="container">
             <div className="-mx-4 flex flex-wrap">

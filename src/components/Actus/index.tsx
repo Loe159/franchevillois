@@ -4,7 +4,6 @@ import { Actuality } from "@/types/actuality";
 import SectionTitle from "../Common/SectionTitle";
 import SingleActuality from "./SingleActuality";
 import 'keen-slider/keen-slider.min.css'
-import KeenSlider from 'keen-slider'
 import {useKeenSlider} from "keen-slider/react";
 import React, {useState} from "react";
 

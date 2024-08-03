@@ -19,7 +19,7 @@ const Chart = () => {
         />
           {chartData.map((chartItem, index) => (
               <div key={index} className="mb-10">
-                  <h2 className="text-black text-5xl font-akira mb-8">{chartItem.title}</h2>
+                  <h2 className="text-black text-3xl font-akira mb-8">{chartItem.title}</h2>
                   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                       {chartItem.persons.map((personItem, personIndex) => (
                           <div key={personIndex} className="flex flex-col items-center bg-gray-100 transition-shadow duration-300 hover:shadow-md">
