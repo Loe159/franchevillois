@@ -35,6 +35,8 @@ const Chart = () => {
                               <div className="text-center m-4">
                                   <h3 className="text-secondary text-lg font-bold mb-2">{personItem.name}</h3>
                                   <p className="text-black text-base">{personItem.designation}</p>
+                                  <p className="text-black text-base"><a href={"mailto:" + personItem.mail}>{personItem.mail}</a></p>
+                                  <p className="text-black text-base"><a href={"tel:" + personItem.phone}>{personItem.phone}</a></p>
                               </div>
                           </div>
                       ))}

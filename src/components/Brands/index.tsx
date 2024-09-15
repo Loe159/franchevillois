@@ -62,7 +62,7 @@ const Brands = () => {
   return (
     <section className="py-16">
       <div className="container">
-          <SectionTitle title={"Nos partenaires"} paragraph={""} mb={"16"}/>
+          <SectionTitle title={"Nos partenaires"} paragraph={""} mb={"16"} width={"full"}/>
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
               <div ref={sliderRef}

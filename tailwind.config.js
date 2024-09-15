@@ -44,9 +44,9 @@ module.exports = {
         "white-secondary": "#f9f9f9",
         black: "#121723",
         dark: "#1D2430",
-        primary: "#dd8502",
+        primary: "#f2af47",
         secondary: "#071b5b",
-        yellow: "#FBB040",
+        yellow: "#f2af47",
         "bg-color-dark": "#171C28",
         "body-color": {
           DEFAULT: "#788293",

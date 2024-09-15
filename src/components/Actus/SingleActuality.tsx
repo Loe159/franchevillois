@@ -8,9 +8,11 @@ const starIcon = (
 );
 
 const SingleActuality = ({ actuality }: { actuality: Actuality }) => {
-  const { id, title, paragraph, image, link, publishDate}  = actuality;
+  const { id, title, paragraph, image, publishDate}  = actuality;
+  const link = "actualite/" + id + "-" + title.toLowerCase().replaceAll(" ", "-");
 
-  return (
+
+    return (
     <div className="w-full h-full flex flex-col md:flex-row">
       <Image src={image} alt={title} width={500} height={500} className={"w-auto max-h-[300px]"} />
         <div className="p-10 md:py-0 flex flex-col justify-around w-full md:w-3/4 h-full">

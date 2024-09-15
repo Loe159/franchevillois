@@ -1,9 +1,12 @@
+'use client'
 import Image from "next/image";
 import SectionTitle from "@/components/Common/SectionTitle";
 import React from "react";
 import Link from "next/link";
+import {usePathname} from "next/navigation";
 
 const Story = () => {
+  const usePathName = usePathname();
   return (
     <section className="py-16 md:py-20 lg:py-28 bg-white-secondary">
       <div className="container">
@@ -38,10 +41,11 @@ const Story = () => {
                   <br/><br/>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 </p>
-            <Link href={""}
+            {usePathName !== '/le-club' ? <Link href={"le-club"}
                 className="ease-in-up shadow-btn hover:shadow-btn-hover hidden rounded-sm bg-white border-2 border-secondary text-black px-8 py-3 text-base font-medium transition duration-300 hover:bg-opacity-90 md:block md:px-9 lg:px-6 xl:px-9 w-52 text-center">
               En savoir plus
-            </Link>
+            </Link> : ""}
+
           </div>
         </div>
       </div>

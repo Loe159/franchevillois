@@ -8,4 +8,6 @@ type Person = {
   name: string;
   image: string;
   designation: string;
+  mail: string;
+  phone: string;
 };

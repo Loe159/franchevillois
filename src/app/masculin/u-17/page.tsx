@@ -16,6 +16,7 @@ const ContactPage = () => {
       <Breadcrumb
         pageName="U 17"
         description=""
+        parent={"Masculin"}
       />
 
       <Team resultWidgetId={"66ae3cd21cbac708cad6bb64"} rankingWidgetId={"66ae40cc1cbac708d09853d8"}/>

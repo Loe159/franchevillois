@@ -15,7 +15,6 @@ const actualityData: Actuality[] = [
       "Ce dimanche 04 juillet 2021, à l’occasion du tournoi vétéran, CHALLENGE DIDIER ROBERT, fut l’occasion pour le FC FRANCHEVILLOIS de rendre...",
     image: "/images/news/didier-robert.png",
     publishDate: "16 Juil 2021",
-    link: "",
   },
   {
     id: 2,
@@ -24,7 +23,6 @@ const actualityData: Actuality[] = [
       "Belle journée ensoleillée qui à permis à nos jeunes adhérents de pouvoir profiter de nos magnifiques infrastructures. Encadrés par nos éducateurs que nous saluons...",
     image: "/images/news/entrainement.png",
     publishDate: "03 Avr 2021",
-    link: "",
   },
   {
     id: 3,
@@ -33,7 +31,6 @@ const actualityData: Actuality[] = [
       "Un grand merci à votre partenaire pour l’aide apportée au cours de cette « drôle » de saison du fait de la crise sanitaire traversée.",
     image: "/images/news/soutien.png",
     publishDate: "20 Mar 2021",
-    link: "",
   },
 ];
 
