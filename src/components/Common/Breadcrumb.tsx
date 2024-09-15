@@ -6,8 +6,8 @@ const Breadcrumb = ({
   parent,
 }: {
   pageName: string;
-  description: string;
-  parent: string;
+  description?: string;
+  parent?: string;
 }) => {
   return (
     <>
