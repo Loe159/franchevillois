@@ -5,13 +5,13 @@
         <feGaussianBlur result="effect1_foregroundBlur_116:1137" stdDeviation="15"/>
     </filter>
     <linearGradient id="b">
-        <stop offset="0" stop-color="#dd8502" stop-opacity="0"/>
-        <stop offset="1" stop-color="#dd8502"/>
+        <stop offset="0" stop-color="#e0ad50" stop-opacity="0"/>
+        <stop offset="1" stop-color="#e0ad50"/>
     </linearGradient>
     <linearGradient id="c" gradientUnits="userSpaceOnUse" x1="25" x2="126.155" xlink:href="#b" y1="183" y2="27.0837"/>
     <linearGradient id="d" gradientUnits="userSpaceOnUse" x1="307" x2="408.155" xlink:href="#b" y1="153" y2="-2.91631"/>
     <mask id="f" height="137" maskUnits="userSpaceOnUse" width="137" x="159" y="13">
-        <circle cx="227.5" cy="81.5" fill="#dd8502" opacity=".8" r="68.5"/>
+        <circle cx="227.5" cy="81.5" fill="#e0ad50" opacity=".8" r="68.5"/>
     </mask>
     <path d="m25 163.051h76.211v27.949h32.097v-27.949h19.692v-26.94h-19.692v-104.111h-42.0209l-66.2871 104.577zm76.831-26.94h-43.0285v-1.242l41.7885-66.2245h1.24z"
           opacity=".5" stroke="url(#c)" stroke-width="3"/>
@@ -23,7 +23,7 @@
             <radialGradient id="b2" cx=".4" cy=".3" r=".8">
                 <stop offset="0" stop-color="#fff"/>
                 <stop offset=".4" stop-color="#fff"/>
-                <stop offset=".8" stop-color="#dd8502"/>
+                <stop offset=".8" stop-color="#e0ad50"/>
             </radialGradient>
             <radialGradient id="d2" cx=".5" cy=".5" r=".5">
                 <stop offset="0" stop-color="#fff" stop-opacity="0"/>
@@ -41,7 +41,7 @@
         </defs>
         <circle r="100" fill="#fff"/>
         <circle r="100" fill="url(#b2)"/>
-        <use xlink:href="#c2" stroke="#dd8502" stroke-width="2"/>
+        <use xlink:href="#c2" stroke="#e0ad50" stroke-width="2"/>
         <use xlink:href="#c2" stroke="#000"/>
         <circle r="100" fill="url(#d2)"/>
     </svg>
