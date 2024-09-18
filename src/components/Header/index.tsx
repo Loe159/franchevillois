@@ -60,7 +60,7 @@ const Header = () => {
       <header
         className={`header left-0 top-0 z-40 flex w-full items-center ${
           sticky || usePathName !== '/' 
-            ? "bg-gray-dark shadow-sticky-dark fixed z-[9999] !bg-opacity-80 backdrop-blur-sm transition"
+            ? "bg-gray-dark shadow-sticky-dark fixed z-[9999] backdrop-blur-sm transition"
             : "absolute bg-transparent"
         }`}
       >
