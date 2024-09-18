@@ -43,14 +43,14 @@ const ChartData: Type[] = [
       {
         name: "Andy BOUHADA",
         image: "/images/chart/img.png",
-        designation: "Responsable Tehcnique Foot A11",
+        designation: "Responsable Technique Foot A11",
         mail: "technique@fcfranchevillois.fr",
         phone: "06 26 84 16 41"
       },
       {
         name: "Corey BUGNET",
         image: "/images/chart/img.png",
-        designation: "Responsable Ecole de Foot",
+        designation: "Responsable Technique Ecole de Foot",
         mail: "prenom.nom@fcfranchevillois.fr",
         phone: "07 85 31 12 75"
       },
@@ -61,11 +61,53 @@ const ChartData: Type[] = [
     title: "ENCADREMENT",
     persons: [
       {
-        name: "Prénom NOM",
+        name: "Alain DEYRAIL",
         image: "/images/chart/img.png",
-        designation: "Éducateur",
-        mail: "@fcfranchevillois.fr",
+        designation: "Coach Senior 1",
+        mail: "",
+        phone: "06 78 85 15 99"
+      },
+      {
+        name: "À définir",
+        image: "/images/chart/img.png",
+        designation: "Coach Senior 2",
+        mail: "",
         phone: ""
+      },
+      {
+        name: "Gilles OLLAGNIER",
+        image: "/images/chart/img.png",
+        designation: "Educateur U20 1",
+        mail: "",
+        phone: "06 35 22 33 92"
+      },
+      {
+        name: "Corey  BUGNET",
+        image: "/images/chart/img.png",
+        designation: "Educateur U17 1",
+        mail: "",
+        phone: "07 85 31 12 75"
+      },
+      {
+        name: "Sandrine HOSNI",
+        image: "/images/chart/img.png",
+        designation: "Educatrice U15 1",
+        mail: "",
+        phone: "06 20 57 36 69"
+      },
+      {
+        name: "Clement DURAND",
+        image: "/images/chart/img.png",
+        designation: "Educateur U13 1",
+        mail: "",
+        phone: "06 75 16 31 40"
+      },
+      {
+        name: "David TOYOU",
+        image: "/images/chart/img.png",
+        designation: "Educateur U12 1",
+        mail: "",
+        phone: "06 20 08 29 98"
       },
     ]
   },
