@@ -51,7 +51,7 @@ const ChartData: Type[] = [
         name: "Corey BUGNET",
         image: "/images/chart/img.png",
         designation: "Responsable Technique Ecole de Foot",
-        mail: "prenom.nom@fcfranchevillois.fr",
+        mail: "technique@fcfranchevillois.fr",
         phone: "07 85 31 12 75"
       },
     ]
@@ -77,35 +77,35 @@ const ChartData: Type[] = [
       {
         name: "Gilles OLLAGNIER",
         image: "/images/chart/img.png",
-        designation: "Educateur U20 1",
+        designation: "Educateur U20",
         mail: "",
         phone: "06 35 22 33 92"
       },
       {
         name: "Corey  BUGNET",
         image: "/images/chart/img.png",
-        designation: "Educateur U17 1",
+        designation: "Educateur U17",
         mail: "",
         phone: "07 85 31 12 75"
       },
       {
         name: "Sandrine HOSNI",
         image: "/images/chart/img.png",
-        designation: "Educatrice U15 1",
+        designation: "Educatrice U15",
         mail: "",
         phone: "06 20 57 36 69"
       },
       {
         name: "Clement DURAND",
         image: "/images/chart/img.png",
-        designation: "Educateur U13 1",
+        designation: "Educateur U13",
         mail: "",
         phone: "06 75 16 31 40"
       },
       {
         name: "David TOYOU",
         image: "/images/chart/img.png",
-        designation: "Educateur U12 1",
+        designation: "Educateur U12",
         mail: "",
         phone: "06 20 08 29 98"
       },
