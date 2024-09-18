@@ -7,84 +7,91 @@ const ChartData: Type[] = [
     title: "COMITE DE DIRECTION",
     persons: [
       {
-        name: "Magalie Giboulet",
+        name: "Magalie GIBOULET",
         image: "/images/chart/img.png",
         designation: "Présidente",
-        mail: "",
-        phone: "01 02 03 04 05"
+        mail: "presidence@fcfranchevillois.fr",
+        phone: "04 72 16 01 38"
       },
       {
         name: "Lucas FERNOUX",
         image: "/images/chart/img.png",
         designation: "Secrétaire général",
-        mail: "",
-        phone: ""
+        mail: "secretariat@fcfranchevillois.fr",
+        phone: "04 72 16 01 38"
       },
       {
-        name: "Prénom NOM",
+        name: "Moufid HFSAOUI",
         image: "/images/chart/img.png",
         designation: "Trésorier",
-        mail: "prenom.nom@mail.com",
-        phone: "06 07 08 09 10"
+        mail: "tresorerie@fcfranchevillois.fr",
+        phone: "04 72 16 01 38"
+      },
+      {
+        name: "Gilles OLLAGNIER",
+        image: "/images/chart/img.png",
+        designation: "Correspondant",
+        mail: "secretariat@fcfranchevillois.fr",
+        phone: "06 35 22 33 92"
       },
     ]
   },
   {
     id: 2,
-    title: "CORRESPONDANTS TECHNIQUES / SPORTIFS",
+    title: "TECHNIQUES / SPORTIFS",
     persons: [
       {
-        name: "Prénom NOM",
+        name: "Andy BOUHADA",
         image: "/images/chart/img.png",
-        designation: "Responsable technique A11",
-        mail: "prenom.nom@mail.com",
-        phone: ""
+        designation: "Responsable Tehcnique Foot A11",
+        mail: "technique@fcfranchevillois.fr",
+        phone: "06 26 84 16 41"
       },
       {
-        name: "Prénom NOM",
+        name: "Corey BUGNET",
         image: "/images/chart/img.png",
-        designation: "Responsable technique école de foot",
-        mail: "prenom.nom@mail.com",
-        phone: ""
+        designation: "Responsable Ecole de Foot",
+        mail: "prenom.nom@fcfranchevillois.fr",
+        phone: "07 85 31 12 75"
       },
     ]
   },
   {
     id: 3,
-    title: "ENCADREMENT EDUCATEUR",
+    title: "ENCADREMENT",
     persons: [
       {
         name: "Prénom NOM",
         image: "/images/chart/img.png",
         designation: "Éducateur",
-        mail: "",
+        mail: "@fcfranchevillois.fr",
         phone: ""
       },
     ]
   },
   {
     id: 4,
-    title: "VOLONTAIRES",
+    title: "BENEVOLAT",
     persons: [
       {
         name: "Prénom NOM",
         image: "/images/chart/img.png",
         designation: "Volontaire",
-        mail: "",
+        mail: "@fcfranchevillois.fr",
         phone: ""
       },
       {
         name: "Prénom NOM",
         image: "/images/chart/img.png",
         designation: "Volontaire",
-        mail: "",
+        mail: "@fcfranchevillois.fr",
         phone: ""
       },
       {
         name: "Prénom NOM",
         image: "/images/chart/img.png",
         designation: "Volontaire",
-        mail: "prenom.nom@mail.com",
+        mail: "prenom.nom@fcfranchevillois.fr",
         phone: ""
       },
     ]
