@@ -59,8 +59,8 @@ const Shop = () => {
               y2="1131.65"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#dd8502" />
-              <stop offset="1" stopColor="#dd8502" stopOpacity="0" />
+              <stop stopColor="#1f3185" />
+              <stop offset="1" stopColor="#1f3185" stopOpacity="0" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_93:235"
@@ -70,8 +70,8 @@ const Shop = () => {
               y2="915.952"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#dd8502" />
-              <stop offset="1" stopColor="#dd8502" stopOpacity="0" />
+              <stop stopColor="#1f3185" />
+              <stop offset="1" stopColor="#1f3185" stopOpacity="0" />
             </linearGradient>
           </defs>
         </svg>
