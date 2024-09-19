@@ -31,7 +31,7 @@ const Shop = () => {
           xmlns="http://www.w3.org/2000/svg"
         >
           <rect
-            opacity="0.3"
+              filter="url(#blurFilter)"
             x="-184.451"
             y="600.973"
             width="196"
@@ -41,7 +41,7 @@ const Shop = () => {
             fill="url(#paint0_linear_93:235)"
           />
           <rect
-            opacity="0.3"
+            filter="url(#blurFilter)"
             x="-188.201"
             y="385.272"
             width="59.7544"
@@ -52,26 +52,26 @@ const Shop = () => {
           />
           <defs>
             <linearGradient
-              id="paint0_linear_93:235"
-              x1="-90.1184"
-              y1="420.414"
-              x2="-90.1184"
-              y2="1131.65"
-              gradientUnits="userSpaceOnUse"
+                id="paint0_linear_93:235"
+                x1="-90.1184"
+                y1="420.414"
+                x2="-90.1184"
+                y2="1131.65"
+                gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#1f3185" />
-              <stop offset="1" stopColor="#1f3185" stopOpacity="0" />
+              <stop offset="0.5" stopColor="#1f3185"/>
+              <stop offset="1" stopColor="#1f3185" stopOpacity="0"/>
             </linearGradient>
             <linearGradient
-              id="paint1_linear_93:235"
-              x1="-159.441"
-              y1="204.714"
-              x2="-159.441"
-              y2="915.952"
-              gradientUnits="userSpaceOnUse"
+                id="paint1_linear_93:235"
+                x1="-159.441"
+                y1="204.714"
+                x2="-159.441"
+                y2="915.952"
+                gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#1f3185" />
-              <stop offset="1" stopColor="#1f3185" stopOpacity="0" />
+              <stop offset="0.5" stopColor="#1f3185"/>
+              <stop offset="1" stopColor="#1f3185" stopOpacity="0"/>
             </linearGradient>
           </defs>
         </svg>
