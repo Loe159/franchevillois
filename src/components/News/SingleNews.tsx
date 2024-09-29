@@ -17,7 +17,7 @@ const SingleActuality = ({ actuality }: { actuality: Actuality }) => {
               </Link>
           </h2>
           <p className="text-sm text-gray-500 mb-4">{publishDate}</p>
-          <Link href={link} className="text-secondary font-akira">
+          <Link href={link} className="text-primary font-akira">
               LIRE PLUS
           </Link>
       </article>
