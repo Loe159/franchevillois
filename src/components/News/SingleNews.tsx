@@ -11,15 +11,17 @@ const SingleActuality = ({ actuality }: { actuality: Actuality }) => {
               <Image src={image} width={200} height={200} alt={title}
                      className="w-full h-40 object-cover transform transition-transform duration-300 ease-in-out group-hover:scale-105"/>
           </Link>
-          <h2 className="text-lg font-bold text-dark mb-2 font-akira">
-              <Link href={link}>
-                  {title}
+          <div className={"flex flex-col justify-between"}>
+              <h2 className="text-lg font-bold text-dark mb-2 font-akira">
+                  <Link href={link}>
+                      {title}
+                  </Link>
+              </h2>
+              <p className="text-sm text-gray-500 mb-4">{publishDate}</p>
+              <Link href={link} className="text-primary font-akira">
+                  LIRE PLUS
               </Link>
-          </h2>
-          <p className="text-sm text-gray-500 mb-4">{publishDate}</p>
-          <Link href={link} className="text-primary font-akira">
-              LIRE PLUS
-          </Link>
+          </div>
       </article>
 
   );
