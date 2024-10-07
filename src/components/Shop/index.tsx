@@ -15,10 +15,10 @@ const Shop = () => {
           paragraph="" width={"full"}
         />
 
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
-          <ShopBox image={"/images/shop/doudoune.png"} link={""} name={"Doudoune"}/>
-          <ShopBox image={"/images/shop/doudoune.png"} link={""} name={"Doudoune"}/>
-          <ShopBox image={"/images/shop/doudoune.png"} link={""} name={"Doudoune"}/>
+        <div className="flex grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
+          <ShopBox image={"/images/shop/coupe vent.jpg"} link={""} name={"Coupe vent"} size={500}/>
+          <ShopBox image={"/images/shop/sac.jpg"} link={""} name={"Sac"} size={500}/>
+          <ShopBox image={"/images/shop/serviette.jpg"} link={""} name={"Serviette"} size={300} />
         </div>
       </div>
 
