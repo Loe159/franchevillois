@@ -13,15 +13,22 @@ import dynamic from "next/dynamic";
 const actualityData: Actuality[] = [
     {
         id: 1,
-        title: "HOMMAGE A DIDIER ROBERT",
+        title: "1er article",
         paragraph:
-            "![Hommage à Didier Robert](https://example.com/image-url.jpg)\n" +
+            "Le Football Club Franchevillois (FCF) a vu le jour en janvier 1940, mais son histoire débute en septembre 1939, lorsque quatre jeunes passionnés de football – Henri Pegand, René Cormet, Julien Gailleton et Robert Blanc – se réunissent pour ancien un club.\n" +
             "\n" +
-            "Ce dimanche 04 juillet 2021, à l’occasion du tournoi vétéran, **CHALLENGE DIDIER ROBERT**, fut l’occasion pour le **FC FRANCHEVILLOIS** de rendre hommage à l’un de ses emblématiques membres du club, **MR DIDIER ROBERT**, décédé le 1er novembre 2020, en lui dédiant un espace incontournable de notre club.\n" +
+            "Ils choisissent les couleurs bleu et blanc, et organisent deux premiers matchs à peine quinze jours après leur décision.\n" +
             "\n" +
-            "Le local matériel et le local habillement qu’il aménagea avec **Jean Noël FAUCON**, ancien trésorier du club, après la livraison du tout nouveau complexe sportif.\n" +
             "\n" +
-            "Sa femme et ses enfants, invités pour l’occasion, ont répondu favorablement à la demande du club, et nous les remercions de leur venue pour l’inauguration de notre **« ESPACE INDISPENSABLE DIDIER ROBERT »**.\n",
+            "Depuis, le club a connu une croissance impressionnante avec des milliers de sportifs ayant évolué sous ses couleurs.\n" +
+            "\n" +
+            "Parmi ses plus belles réussites, le FCF a atteint le 6e tour de la Coupe de France. Le club a également vu naître des carrières remarquables, comme celles de Florian Maurice (ancien attaquant de l'Olympique Lyonnais et de l'équipe de France Espoir), Christophe Breton (ancien gardien de l'OL), Fabrice Grange (entraîneur des gardiens). de l'équipe de France), et Éric Paulat (arbitre international).\n" +
+            "\n" +
+            "\n" +
+            "En 2018, le club a retenu une rénovation de ses infrastructures, avec la création du Parc Sportif de Francheville, qui comprend désormais des installations modernes telles que des vestiaires, un club-house, une salle de fitness, deux terrains synthétiques, des sautoirs, une aire de lancer de poids, et une piste d'athlétisme à six couloirs.\n" +
+            "\n" +
+            "\n" +
+            "Aujourd'hui, le FCF, c'est plus de 350 licenciés, des éducateurs diplomés et un club qui ne cesse d'évoluer.",
         image: "/images/news/didier-robert.png",
         publishDate: "16 Juil 2021",
     },

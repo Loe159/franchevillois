@@ -14,8 +14,8 @@ const ChartData: Type[] = [
         phone: "04 72 16 01 38"
       },
       {
-        name: "Lucas FERNOUX",
-        image: "/images/chart/lucas.jpg",
+        name: "-",
+        image: "/images/logo/logo.png",
         designation: "Secrétaire général",
         mail: "secretariat@fcfranchevillois.fr",
         phone: "04 72 16 01 38"
@@ -62,17 +62,17 @@ const ChartData: Type[] = [
     persons: [
       {
         name: "Alain DEYRAIL",
-        image: "/images/chart/alain.jpg",
+        image: "/images/logo/logo.png",
         designation: "Coach Senior 1",
         mail: "",
         phone: "06 78 85 15 99"
       },
       {
-        name: "À définir",
-        image: "/images/chart/",
+        name: "Charles DARCY",
+        image: "/images/chart/charles.jpg",
         designation: "Coach Senior 2",
         mail: "",
-        phone: ""
+        phone: "06 26 87 84 73"
       },
       {
         name: "Gilles OLLAGNIER",
@@ -96,7 +96,7 @@ const ChartData: Type[] = [
         phone: "06 20 57 36 69"
       },
       {
-        name: "Clement DURAND",
+        name: "Clément DURAND",
         image: "/images/chart/clement.jpg",
         designation: "Educateur U13",
         mail: "",
@@ -109,6 +109,13 @@ const ChartData: Type[] = [
         mail: "",
         phone: "06 20 08 29 98"
       },
+      {
+        name: "Issa SISSOKO",
+        image: "/images/chart/issa.jpg",
+        designation: "Éducateur école de foot",
+        mail: "",
+        phone: "07 84 83 99 39"
+      },
     ]
   },
   {
@@ -116,24 +123,38 @@ const ChartData: Type[] = [
     title: "BENEVOLAT",
     persons: [
       {
-        name: "Prénom NOM",
-        image: "/images/chart/",
-        designation: "Volontaire",
-        mail: "@fcfranchevillois.fr",
+        name: "Raphaël MESTRE",
+        image: "/images/chart/raphael.jpg",
+        designation: "Apprenti communication",
+        mail: "",
         phone: ""
       },
       {
-        name: "Prénom NOM",
-        image: "/images/chart/",
-        designation: "Volontaire",
-        mail: "@fcfranchevillois.fr",
+        name: "Amine ZAKI",
+        image: "/images/chart/amine2.jpg",
+        designation: "Service civique",
+        mail: "",
         phone: ""
       },
       {
-        name: "Prénom NOM",
-        image: "/images/chart/",
-        designation: "Volontaire",
-        mail: "prenom.nom@fcfranchevillois.fr",
+        name: "Cyril MOUSSOUNI",
+        image: "/images/chart/cyril.jpg",
+        designation: "Dirigeant",
+        mail: "",
+        phone: ""
+      },
+      {
+        name: "Philippe MATHYS",
+        image: "/images/chart/philippe.jpg",
+        designation: "Dirigeant",
+        mail: "",
+        phone: ""
+      },
+      {
+        name: "Damien BECHET",
+        image: "/images/chart/damien.jpg",
+        designation: "Dirigeant",
+        mail: "",
         phone: ""
       },
     ]

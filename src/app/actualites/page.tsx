@@ -16,9 +16,9 @@ const AboutPage = () => {
     const actualityData: Actuality[] = [
         {
             id: 1,
-            title: "HOMMAGE A DIDIER ROBERT",
+            title: "1er article",
             paragraph:
-                "Ce dimanche 04 juillet 2021, à l’occasion du tournoi vétéran, CHALLENGE DIDIER ROBERT, fut l’occasion pour le FC FRANCHEVILLOIS de rendre...",
+                "Le Football Club Franchevillois (FCF) a vu le jour en janvier 1940, mais son histoire débute en septembre 1939...",
             image: "/images/news/didier-robert.png",
             publishDate: "16 Juil 2021",
         },
