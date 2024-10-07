@@ -16,7 +16,7 @@ const ChartData: Type[] = [
       {
         name: "-",
         image: "/images/logo/logo.png",
-        designation: "Secrétaire général",
+        designation: "Secrétaire Général",
         mail: "secretariat@fcfranchevillois.fr",
         phone: "04 72 16 01 38"
       },
@@ -112,7 +112,7 @@ const ChartData: Type[] = [
       {
         name: "Issa SISSOKO",
         image: "/images/chart/issa.jpg",
-        designation: "Éducateur école de foot",
+        designation: "Éducateur École de foot",
         mail: "",
         phone: "07 84 83 99 39"
       },
