@@ -50,7 +50,7 @@ const ChartData: Type[] = [
       {
         name: "Corey BUGNET",
         image: "/images/chart/corey.jpg",
-        designation: "Responsable Technique Ecole de Foot",
+        designation: "Responsable Technique École de Foot",
         mail: "technique@fcfranchevillois.fr",
         phone: "07 85 31 12 75"
       },

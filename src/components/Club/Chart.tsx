@@ -27,8 +27,8 @@ const Chart = () => {
                                   <Image
                                       src={personItem.image}
                                       alt={personItem.name}
-                                      width={500}
-                                      height={500}
+                                      width={300}
+                                      height={300}
                                       className="transform transition-transform duration-300 hover:scale-110"
                                   />
                               </div>

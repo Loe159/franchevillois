@@ -46,34 +46,18 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                        href="/"
+                        href="https://www.mairie-francheville69.fr/"
                         className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Partenaire 2
+                      Ville de Francheville
                     </Link>
                   </li>
                   <li>
                     <Link
-                        href="/"
+                        href="https://www.auvergnerhonealpes.fr/"
                         className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Partenaire 3
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                        href="/"
-                        className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      Partenaire 4
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                        href="/"
-                        className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      Partenaire 5
+                      Région Auvergne-Rhône-Alpes
                     </Link>
                   </li>
                 </ul>
