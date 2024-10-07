@@ -3,7 +3,7 @@ import { Brand } from "@/types/brand";
 const brandsData: Brand[] = [
   {
     id: 1,
-    name: "Carrefour",
+    name: "Carrefour Francheville",
     href: "https://www.carrefour.fr/magasin/francheville",
     image: "/images/brands/carrefour.png",
     imageLight: "/images/brands/carrefour.png",
@@ -24,7 +24,7 @@ const brandsData: Brand[] = [
   },
   {
     id: 4,
-    name: "Carrefour",
+    name: "Carrefour Francheville",
     href: "https://www.carrefour.fr/magasin/francheville",
     image: "/images/brands/carrefour.png",
     imageLight: "/images/brands/carrefour.png",
