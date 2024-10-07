@@ -38,10 +38,10 @@ const Footer = () => {
                 <ul>
                   <li>
                     <Link
-                        href="/"
+                        href="https://www.carrefour.fr/magasin/francheville"
                         className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Partenaire 1
+                      Carrefour
                     </Link>
                   </li>
                   <li>
