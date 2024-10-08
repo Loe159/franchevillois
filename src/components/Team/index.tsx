@@ -10,7 +10,7 @@ import Link from "next/link";
 import Image from "next/image";
 import ScorencoWidget from "@/components/Team/ScorencoWidget";
 
-const Team = ({ rankingWidgetId, resultWidgetId }) => {
+const Team = ({ rankingWidgetId, resultWidgetId, image}) => {
   const [currentSlide, setCurrentSlide] = React.useState(0)
   const [loaded, setLoaded] = useState(false)
   const [sliderRef, instanceRef] = useKeenSlider<HTMLDivElement>({
@@ -57,7 +57,7 @@ const Team = ({ rankingWidgetId, resultWidgetId }) => {
               <div className="navigation-wrapper">
                   <div ref={sliderRef} className="keen-slider text-black">
                       <div className={"keen-slider__slide"}>
-                          <Image src={"/images/teams/senior.png"} alt={"senior"} fill className="w-full h-auto !relative"/>
+                          <Image src={image} alt={"Équipe"} fill className="w-full h-auto !relative"/>
                       </div>
                       <div className={"keen-slider__slide"}>
                           <ScorencoWidget id={resultWidgetId} />
