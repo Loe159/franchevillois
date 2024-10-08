@@ -4,12 +4,12 @@ import { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Error Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Error Page for Startup Nextjs Template",
+  title: "Page non trouvée",
+  description: "404 error",
   // other metadata
 };
 
-const ErrorPage = () => {
+const NotFoundPage = () => {
   return (
     <>
       <section className="relative z-10 pb-16 pt-36 md:pb-20 lg:pb-28 lg:pt-[180px]">
@@ -24,14 +24,13 @@ const ErrorPage = () => {
                   Sorry, the page can’t be found
                 </h3>
                 <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  The page you were looking for appears to have been moved,
-                  deleted or does not exist.
+                  La page que vous recherchez n&apos;existe pas, a été déplacée ou supprimée.
                 </p>
                 <Link
                   href="/"
-                  className="px-8 py-3 text-base font-bold text-white duration-300 rounded-md bg-primary shadow-signUp hover:bg-white hover:text-primary md:px-9 lg:px-8 xl:px-9"
+                  className="px-8 py-3 text-base font-bold text-white duration-300 rounded-md bg-secondary hover:bg-white hover:text-black hover:bg-white hover:border-secondary border-2 border-white md:px-9 lg:px-8 xl:px-9"
                 >
-                  Back to Homepage
+                  Revenir à l&apos;accueil
                 </Link>
               </div>
             </div>
@@ -414,4 +413,4 @@ const ErrorPage = () => {
   );
 };
 
-export default ErrorPage;
+export default NotFoundPage;
