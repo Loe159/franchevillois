@@ -21,7 +21,7 @@ const SingleActuality = ({ actuality }: { actuality: Actuality }) => {
                 <p className="text-sm text-body-color">{publishDate}</p>
                 <h2 className="mb-1 text-2xl font-semibold text-dark dark:text-white">{title}</h2>
                 <p className="mb-8 text-base leading-relaxed text-white overflow-hidden overflow-ellipsis line-clamp-3">
-                    “{paragraph}
+                    {paragraph}
                 </p>
             </div>
             <Link href={link}

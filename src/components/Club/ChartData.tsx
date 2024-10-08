@@ -15,7 +15,7 @@ const ChartData: Type[] = [
       },
       {
         name: "-",
-        image: "/images/logo/logo.png",
+        image: "/images/logo/logo-spaced.png",
         designation: "Secrétaire Général",
         mail: "secretariat@fcfranchevillois.fr",
         phone: "04 72 16 01 38"
@@ -62,7 +62,7 @@ const ChartData: Type[] = [
     persons: [
       {
         name: "Alain DEYRAIL",
-        image: "/images/logo/logo.png",
+        image: "/images/logo/logo-spaced.png",
         designation: "Coach Senior 1",
         mail: "",
         phone: "06 78 85 15 99"
