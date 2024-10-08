@@ -23,7 +23,7 @@ const Story = () => {
               className="relative mx-auto mb-12 text-center lg:m-0"
             >
               <Image
-                src="/images/about/story.png"
+                src="/images/about/story.jpeg"
                 alt="story image"
                 width={500}
                 height={500}
@@ -33,18 +33,9 @@ const Story = () => {
           </div>
           <div className="w-full px-4 lg:w-1/2 flex flex-col gap-10 items-center">
             <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg text-justify whitespace-pre-wrap">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto consequuntur culpa dolorum ea enim
-              eos, facere fugit ipsa iure laborum modi, sed sit suscipit veritatis, voluptate. Explicabo illo iusto
-              quod.
+              Le FC Franchevillois a été créé en janvier 1940, mais ses débuts remontent à septembre 1939, lorsque quatre jeunes passionnés de football, Henri Pegand, René Cormet, Julien Gailleton et Robert Blanc, décident de former un club. Ils choisissent les couleurs bleu et blanc et organisent rapidement leurs premiers matchs. Les membres, déterminés et motivés, construisent eux-mêmes les infrastructures nécessaires, établissant un fort esprit communautaire dès le départ.
               <br/><br/>
-              Il est un club formateur labellisé depuis 2005 où de nombreux jeunes alimentent les équipes de la ligue
-              Rhône Alpes.
-              <br/><br/>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores consequuntur dolor dolorem hic libero
-              maxime optio temporibus voluptates. Animi aut autem doloremque ex, expedita iste reiciendis rerum sequi
-              sint voluptate?
-              <br/><br/>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Aujourd'hui, le FC Franchevillois compte environ 300 licenciés et continue de promouvoir le football à tous les niveaux, des jeunes aux seniors. Le club s'engage activement dans la formation des jeunes joueurs, cherchant à développer leurs compétences tout en leur inculquant des valeurs de respect et de solidarité. Bien que les dynamiques aient évolué, le club reste un pilier de la vie locale, porté par une nouvelle génération de bénévoles et de joueurs déterminés à perpétuer l’esprit qui a animé ses fondateurs.
             </p>
             {usePathName !== '/le-club' ?
                 <Link href={"le-club"}
