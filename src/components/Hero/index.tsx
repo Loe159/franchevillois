@@ -12,7 +12,7 @@ const Hero = () => {
             <div className="-mx-4 flex flex-wrap">
                 <div className="w-full px-4">
                     <div className="mx-auto max-w-[800px] text-center">
-                        <h1 className="mb-5 font-bold leading-tight text-white sm:text-4xl md:text-7xl font-akira">
+                        <h1 className="mb-5 font-bold leading-tight text-white sm:text-5xl md:text-7xl font-akira">
                             FC <span className={"text-primary"}>FRANCHEVILLOIS</span>
                         </h1>
                     </div>

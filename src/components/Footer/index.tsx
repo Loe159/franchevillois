@@ -8,7 +8,7 @@ const Footer = () => {
     <>
       <footer className="relative z-10 bg-white pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24">
         <div className="container">
-          <div className="-mx-4 flex flex-row">
+          <div className="-mx-4 flex flex-col md:flex-row">
             <div className="w-full px-4 flex flex-col items-center">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
