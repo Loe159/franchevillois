@@ -15,7 +15,7 @@ const Shop = () => {
           paragraph="" width={"full"}
         />
 
-        <div className="flex grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
+        <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6">
           <ShopBox image={"/images/shop/coupe vent.png"} link={""} name={"Coupe vent"} size={500}/>
           <ShopBox image={"/images/shop/sac.jpg"} link={""} name={"Sac"} size={500}/>
           <ShopBox image={"/images/shop/serviette.jpg"} link={""} name={"Serviette"} size={300} />
